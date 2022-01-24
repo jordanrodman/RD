@@ -1,0 +1,43 @@
+.contenedor-menu{
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.menu-ul{
+	list-style:none;
+	padding:0px;
+	width:50%;
+	margin:0px auto;
+}
+
+.container-tarjetas{
+ opacity: 80%;
+}
+
+.container-tarjetas2{
+ opacity: 80%;
+}
+
+
+.menu-li{
+	width:100%;
+	height:auto;
+	color:white;
+	display:block;
+	text-align:center;
+	background:#2fff6f;
+	margin-bottom:2%;
+	text-align:center;
+}
+.menu-li a{
+	display:block;
+	width:100%;
+	height:auto;
+	color:white;
+	padding:10px 0;
+	border:solid 1px white;
+}
+.menu-li a:hover{
+	background:#3ABAC9;
+}

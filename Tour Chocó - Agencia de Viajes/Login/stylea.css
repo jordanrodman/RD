@@ -1,0 +1,14 @@
+#contenedor{
+    width:300px;
+
+}
+
+#contenedor-tabla{
+    width:600px;
+    margin:auto;
+}
+
+table {
+	width: 110%;
+  align:center;
+}

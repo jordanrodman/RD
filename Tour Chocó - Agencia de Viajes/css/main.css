@@ -1,0 +1,69 @@
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar {
+background-color: #ffffff;
+box-shadow:  2px 2px 5px #000;
+min-height:  100px;
+opacity: .9;
+}
+
+.navbar-toggler { font-size: 40px}
+.navbar-toggler:focus {outline: none;}
+
+.main-header{
+position: relative;
+background:url(../img/Nuqui.jpg);
+background-size: cover;
+min-height: 500px;
+}
+
+.background-overlay{
+  position: absolute;
+  background-color: rgba(116, 185, 255,0.4);
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+.form-control, .btn {
+border-radius: 0;
+}
+
+.error {
+color: red;
+}
+
+
+input[type="submit"]{
+
+padding:  10px;
+color: #fff;
+background: #080808;
+width: 320px;
+margin: 20px auto;
+margin-left: 1;
+border-radius:  3px;
+cursor: pointer;
+
+}
+
+input[type="submit"]:hover{
+background-color: #6FF6BA;
+}
+
+.map-container-4{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-4 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
